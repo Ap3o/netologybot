@@ -6,8 +6,6 @@ import telebot
 
 bot = telebot.TeleBot(config.TOKEN)
 
-todos = dict()
-
 
 @bot.message_handler(commands=['help'])
 def _help(message):
